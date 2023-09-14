@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  height: 100vh;
+}
+
+body,
+main,
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main,
+form {
+  gap: 20px;
+}
+
+main {
+  box-shadow: 0px 0px 5px 5px #00000020;
+  padding: 40px;
+}
+
+button,
+input {
+  padding: 10px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.flex,
+.flex-column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.gap {
+  gap: 20px;
+}
+
+.w-fill {
+  width: 100%;
+}
+
+.h-fill {
+  width: 100%;
+}
