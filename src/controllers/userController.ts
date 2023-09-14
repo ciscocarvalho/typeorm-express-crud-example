@@ -89,7 +89,7 @@ const updateUser = async (req: Request, res: Response) => {
     return;
   }
 
-  return { user: await User.findOneBy({ id }) };
+  res.json({ user: await User.findOneBy({ id }) });
 };
 
 const deleteUser = async (req: Request, res: Response) => {
